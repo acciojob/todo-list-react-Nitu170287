@@ -1,1 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.add_tasks
+ {
+    margin: 10px;
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+}
+.to-do-list{
+    text-align: center;
+    background-color: rgb(221, 217, 217);
+    width:50%;
+    margin: 0 auto;
+}
+
+.tasks_section {
+    width: 65%;
+    padding: 10px 40px;
+}
+.edit{
+   
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    width: 25%; 
+}
+.delete{
+   
+    padding: 10px 50px;
+    background-color: red;
+    color: white;
+    width: 25%;
+}
+
+.task {
+    width: 85%;
+   
+   padding: 10px 50px;
+   text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   background-color: rgb(240, 238, 238);
+  
+}
+.list-Item{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: white;
+}
